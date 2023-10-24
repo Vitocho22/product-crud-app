@@ -1,0 +1,35 @@
+/* Clase para estilizar texto con temática gamer */
+.text-gamer {
+  color: #FF6F61; /* Color naranja */
+  font-family: "Press Start 2P", cursive; /* Fuente estilo píxel */
+}
+
+/* Clase para estilizar botones con temática gamer */
+.btn-gamer {
+  background-color: #0A0A0A; /* Color de fondo negro */
+  color: #FF6F61; /* Color del texto naranja */
+  border: 1px solid #FF6F61; /* Borde naranja */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
+}
+
+.btn-gamer:hover {
+  background-color: #FF6F61; /* Cambia a naranja al pasar el ratón */
+  color: #0A0A0A; /* Cambia a negro al pasar el ratón */
+}
+
+/* Clase para estilizar la tabla con temática gamer */
+.table-gamer {
+  background-color: #0A0A0A; /* Color de fondo negro */
+  color: #FF6F61; /* Color del texto naranja */
+  border: 1px solid #FF6F61; /* Borde naranja */
+  font-family: "Press Start 2P", cursive; /* Fuente estilo píxel */
+}
+
+.table-gamer th, .table-gamer td {
+  border: 1px solid #FF6F61; /* Borde naranja en las celdas */
+}
+
+.table-gamer th {
+  background-color: #FF6F61; /* Fondo naranja en las celdas de encabezado */
+  color: #0A0A0A; /* Texto negro en las celdas de encabezado */
+}
